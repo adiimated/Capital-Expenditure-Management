@@ -42,4 +42,8 @@ Several of the projects, if approved, must be undertaken in joint partnership wi
 9. **Visualization of Capital Expenditures**
    - Develop line charts to visualize total and functional area-specific capital expenditures for all approved projects across each year.
 
+## Model:
 
+![](https://github.com/adiimated/Capital-Expenditure-Management/blob/main/images/Modeling%20Data.png)
+
+![](https://github.com/adiimated/Capital-Expenditure-Management/blob/main/images/Conditions%20and%20Viz.png)
