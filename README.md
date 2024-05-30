@@ -12,34 +12,36 @@ Several of the projects, if approved, must be undertaken in joint partnership wi
 
 Let us create a checklist to address the above problem.
 
-- [ ] **List of given financial information for all potential projects**
-  - Ensure the model lists all necessary financial data such as Project Index, Functional Area, Partnership Percentage, Capex for Year 1 to Year 3, and NPV.
+## Excel Model Development Steps
 
-- [ ] **Associate each proposed project with an approval indicator**
-  - Add a column in the model to indicate whether a project is approved (1) or not approved (0). For now, use random values to simulate scenarios.
+1. **List Financial Data**
+   - Include all provided financial estimates for potential projects: Project Index, Functional Area, Partnership Percentage, Capex Year 1-3, and NPV.
 
-- [ ] **Track number of approved projects per functional area**
-  - Calculate the number of approved projects for each functional area.
-  - Ensure that no functional area is completely shut out of approvals. Use a binary indicator (0 if no projects are approved in the functional area, 1 if at least one is approved).
+2. **Project Approval Indicator**
+   - Add a column to indicate if each project is approved (1) or not approved (0). Use random values initially to test various scenarios.
 
-- [ ] **Calculate the sum of capital expenditures for approved projects**
-  - Find the sum of capital expenditures for all approved projects by year and for the total over all three years.
-  - Indicate whether these sums exceed the set budget limits using binary values (0 if within budget, 1 if exceeded).
+3. **Functional Area Approval Tracking**
+   - Calculate the total number of approved projects for each functional area.
+   - Ensure no functional area is left out by adding a binary indicator (1 if at least one project is approved, 0 otherwise).
 
-- [ ] **Calculate capital expenditures by functional area**
-  - Sum capital expenditures for approved projects, broken down by year for each functional area.
+4. **Capital Expenditure Calculations**
+   - Determine total and yearly capital expenditures for approved projects.
+   - Use binary indicators to check if these sums exceed the set budget limits of $10 billion total and $4 billion per year.
 
-- [ ] **Include a mechanism for adjusting NPV estimates**
-  - Allow input for a possible percentage decrease for each project's original NPV.
-  - Update the NPV values based on the entered percentage decrease.
+5. **Expenditure Breakdown by Functional Area**
+   - Calculate and display capital expenditures by year for each functional area based on project approvals.
 
-- [ ] **Calculate ROI for each project**
-  - Implement the calculation of ROI as NPV (adjusted for any decrease) as a percentage of the total capital expenditure of the project.
+6. **NPV Adjustments**
+   - Allow for input of a percentage decrease to adjust each project's NPV.
+   - Update NPV calculations based on the inputted decrease percentage.
 
-- [ ] **Create a one-way data table for sensitivity analysis**
-  - The table should vary the common percentage decrease in NPV from 0% to 30% in increments of 5%.
-  - Outputs should include the average, minimum, and maximum ROI of undertaken projects.
+7. **ROI Calculation**
+   - Compute the ROI for each project using the formula: (Adjusted NPV / Total Capital Expenditure) * 100%.
 
-- [ ] **Visual representation of capital expenditures**
-  - Develop line charts showing total capital expenditures by year for all approved projects and separately for each functional area.
+8. **Sensitivity Analysis**
+   - Create a one-way data table that varies the percentage decrease in NPV from 0% to 30% in 5% increments, displaying changes in ROIs.
+
+9. **Visualization of Capital Expenditures**
+   - Develop line charts to visualize total and functional area-specific capital expenditures for all approved projects across each year.
+
 
