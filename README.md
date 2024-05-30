@@ -8,9 +8,7 @@ Julie is currently preparing to meet with all parties involved to discuss projec
 
 Several of the projects, if approved, must be undertaken in joint partnership with another company. For example, if project 3 is approved, Bluejay Natural Gas will take a 50% share in the project, and the other 50% will be shared by a partner.  In this case, Bluejay Natural Gas will only incur 50% of the expenditures and receive only 50% of the revenues.  
 
-## Model Implementation Checklist
-
-Let us create a checklist to address the above problem.
+![Starting Data](https://github.com/adiimated/Capital-Expenditure-Management/blob/main/images/Starting%20Data.png)
 
 ## Excel Model Development Steps
 
